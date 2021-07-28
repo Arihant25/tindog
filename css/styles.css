@@ -1,0 +1,11 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font: 900 3rem/1.5 "Monserrat", sans-serif;
+}
