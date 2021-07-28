@@ -15,6 +15,10 @@ h1 {
   font: 900 3.5rem/1.5 "Monserrat", sans-serif;
 }
 
+h3 {
+  font: 700 1.5rem "Monserrat", sans-serif;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -46,4 +50,29 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.feature-box p {
+  font: 400 1rem "Monserrat", sans-serif;
+  color: #8f8f8f;
+}
+
+.feature-box .fas {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-box .fas:hover {
+  color: #ff46c8;
 }
