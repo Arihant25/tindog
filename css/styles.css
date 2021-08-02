@@ -1,9 +1,12 @@
 body {
   font-family: "Monserrat", sans-serif;
+  text-align: center;
 }
 
-h1 {
-  font: 900 3.5rem/1.5 "Monserrat", sans-serif;
+/* Headings */
+
+.heading {
+  font: 900 3rem/1.5 "Monserrat", sans-serif;
 }
 
 h2 {
@@ -14,13 +17,21 @@ h3 {
   font: 700 1.5rem "Monserrat", sans-serif;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
+/* Containers */
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.white-section {
+  background-color: white;
+}
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: white;
 }
 
 /* Navigation Bar */
@@ -43,6 +54,13 @@ h3 {
   font: 100 1.2rem "Monserrat", sans-serif;
 }
 
+/* Title Section */
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
 /* Download Buttons */
 
 .download-button {
@@ -61,14 +79,11 @@ h3 {
 /* Features */
 
 #features {
-  background-color: white;
   position: relative;
-  padding: 7% 15%;
 }
 
 .feature-box {
   padding: 5%;
-  text-align: center;
 }
 
 .feature-box p {
@@ -88,9 +103,7 @@ h3 {
 /* Testimonials Section */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: white;
 }
 
 .testimonial-image {
@@ -99,15 +112,10 @@ h3 {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Press Section */
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -120,32 +128,15 @@ h3 {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
-/* Call to Action Section */
-
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-  padding: 7% 15%;
-}
-
-#cta h3 {
-  font: 900 3rem/1.5 "Monserrat", sans-serif;
-  color: white;
-}
-
 /* Footer Section */
 
 footer {
-  background-color: white;
-  text-align: center;
-  padding: 7% 15%;
   font-size: 20px;
 }
 
